@@ -107,7 +107,23 @@ header.header  .navbar_menu{
 }
 .dropdown-menu{
     margin: 0;
+    box-shadow: 0 0 21.4px 2.6px rgba(0, 0, 0, 0.1);
+    border: solid 1px #e8e8e8;
+    background-color: #ffffff;
     padding: 0;
+}
+.dropdown-menu li{
+    padding: 5px 0;
+}
+.dropdown-menu a{
+    color: #000;
+
+}
+.dropdown-menu li:hover{
+    background: #e19a01;
+}
+.dropdown-menu li:hover a{
+    color:#fff;
 }
 /*end header*/
 /*section_content*/
